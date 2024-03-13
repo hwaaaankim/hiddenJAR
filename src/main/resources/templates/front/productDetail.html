@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="fragments/front/clean/common :: cleanHead"></head>
+
+<body class="home home-5">
+	<div id="page" class="hfeed page-wrapper">
+		<header id="site-header" class="site-header header-v1 relative"
+			th:replace="fragments/front/clean/common :: cleanHeader">
+		</header>
+
+		<div id="site-main" class="site-main">
+			<div id="main-content" class="main-content">
+				<div id="primary" class="content-area">
+					<div id="title" class="page-title">
+						<div class="section-container">
+							<div class="content-title-heading">
+								<h1 class="text-title-heading">
+									제품명[제품코드]
+								</h1>
+							</div>
+							<div class="breadcrumbs">
+								<a href="#">HOME</a><span class="delimiter"></span>
+								<a href="#">대분류</a><span class="delimiter"></span>
+								<a href="#">중분류</a><span class="delimiter"></span>제품명
+							</div>
+						</div>
+					</div>
+
+					<div id="content" class="site-content" role="main">
+						<div class="shop-details zoom" data-product_layout_thumb="scroll" data-zoom_scroll="true"
+							data-zoom_contain_lens="true" data-zoomtype="inner" data-lenssize="200"
+							data-lensshape="square" data-lensborder="" data-bordersize="2" data-bordercolour="#f9b61e"
+							data-popup="false">
+							<div class="product-top-info">
+								<div class="section-padding">
+									<div class="section-container p-l-r">
+										<div class="row">
+											<div class="product-images col-lg-7 col-md-12 col-12">
+												<div class="row">
+													<div class="col-md-2">
+														<div class="content-thumbnail-scroll">
+															<div class="image-thumbnail slick-carousel slick-vertical"
+																data-asnavfor=".image-additional" data-centermode="true"
+																data-focusonselect="true" data-columns4="5"
+																data-columns3="4" data-columns2="4" data-columns1="4"
+																data-columns="4" data-nav="true"
+																data-vertical="&quot;true&quot;"
+																data-verticalswiping="&quot;true&quot;">
+																<div class="img-item slick-slide">
+																	<span class="img-thumbnail-scroll">
+																		<img width="600" height="600"
+																			src="/front/clean/media/product/9.jpg"
+																			alt="">
+																	</span>
+																</div>
+																<div class="img-item slick-slide">
+																	<span class="img-thumbnail-scroll">
+																		<img width="600" height="600"
+																			src="/front/clean/media/product/9-2.jpg"
+																			alt="">
+																	</span>
+																</div>
+																<div class="img-item slick-slide">
+																	<span class="img-thumbnail-scroll">
+																		<img width="600" height="600"
+																			src="/front/clean/media/product/9-3.jpg"
+																			alt="">
+																	</span>
+																</div>
+																<div class="img-item slick-slide">
+																	<span class="img-thumbnail-scroll">
+																		<img width="600" height="600"
+																			src="/front/clean/media/product/9.jpg"
+																			alt="">
+																	</span>
+																</div>
+																<div class="img-item slick-slide">
+																	<span class="img-thumbnail-scroll">
+																		<img width="600" height="600"
+																			src="/front/clean/media/product/9-2.jpg"
+																			alt="">
+																	</span>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-10">
+														<div class="scroll-image main-image">
+															<div class="image-additional slick-carousel"
+																data-asnavfor=".image-thumbnail" data-fade="true"
+																data-columns4="1" data-columns3="1" data-columns2="1"
+																data-columns1="1" data-columns="1" data-nav="true">
+																<div class="img-item slick-slide">
+																	<img width="900" height="900"
+																		src="/front/clean/media/product/9.jpg" alt=""
+																		title="">
+																</div>
+																<div class="img-item slick-slide">
+																	<img width="900" height="900"
+																		src="/front/clean/media/product/9-2.jpg"
+																		alt="" title="">
+																</div>
+																<div class="img-item slick-slide">
+																	<img width="900" height="900"
+																		src="/front/clean/media/product/9-3.jpg"
+																		alt="" title="">
+																</div>
+																<div class="img-item slick-slide">
+																	<img width="900" height="900"
+																		src="/front/clean/media/product/9.jpg" alt=""
+																		title="">
+																</div>
+																<div class="img-item slick-slide">
+																	<img width="900" height="900"
+																		src="/front/clean/media/product/9-2.jpg"
+																		alt="" title="">
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="product-info col-lg-5 col-md-12 col-12 ">
+												<h1 class="title">제품명</h1>
+												<span class="price hashtag">
+													#Tag #Tag #Tag #Tag #Tag
+												</span>
+												<div class="description">
+													<p>PRODUCT DESCRIPTIOINs</p>
+												</div>
+												<div class="product-meta">
+													<span class="sku-wrapper">제품 OPTION 01 : <span class="sku">옵션 답변
+															01</span></span>
+													<span class="posted-in">제품 OPTION 02 : <a href="#" rel="tag">옵션 답변
+															02</a></span>
+													<span class="tagged-as">제품 OPTION 03 : <a href="#" rel="tag">옵션 답변
+															03</a>
+												</div>
+												<div class="social-share">
+													<a href="#" title="Facebook" class="share-facebook"
+														target="_blank"><i class="fa fa-facebook"></i>Facebook</a>
+													<a href="#" title="Twitter" class="share-twitter"><i
+															class="fa fa-instagram"></i>Instagram</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="product-tabs">
+								<div class="section-padding">
+									<div class="section-container p-l-r">
+										<div class="product-tabs-wrap">
+											<ul class="nav nav-tabs" role="tablist">
+												<li class="nav-item">
+													<a class="nav-link active" data-toggle="tab" href="#description"
+														role="tab">PRODUCT INFORMATIONs</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" data-toggle="tab" href="#additional-information"
+														role="tab">DETAILs</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" data-toggle="tab" href="#reviews"
+														role="tab">FILE DOWNLOAD</a>
+												</li>
+											</ul>
+											<div class="tab-content">
+												<div class="tab-pane fade show active" id="description" role="tabpanel">
+													<p>===</p>
+													<p>===</p>
+												</div>
+												<div class="tab-pane fade" id="additional-information" role="tabpanel">
+													<table class="product-attributes">
+														<tbody>
+															<tr class="attribute-item">
+																<th class="attribute-label">Color</th>
+																<td class="attribute-value">Black, Blue,
+																	Green</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="tab-pane fade" id="reviews" role="tabpanel">
+													<div id="reviews" class="product-reviews">
+														<div id="comments">
+															<ol class="comment-list">
+																<li class="review">
+																	<div class="content-comment-container">
+																		<div class="comment-container">
+																			<img src="/front/clean/media/user.jpg"
+																				class="avatar" height="60" width="60"
+																				alt="">
+																			<div class="comment-text">
+																				<div class="review-author">
+																					FILE NAME[확장자]</div>
+																				<div class="review-time">
+																					업로드 날짜</div>
+																			</div>
+																		</div>
+																	</div>
+																</li>
+															</ol>
+														</div>
+														<div class="clear"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="product-related">
+								<div class="section-padding">
+									<div class="section-container p-l-r">
+										<div class="block block-products slider">
+											<div class="block-title">
+												<h2>비슷한 제품</h2>
+											</div>
+											<div class="block-content">
+												<div class="content-product-list slick-wrap">
+													<div class="slick-sliders products-list grid"
+														data-slidestoscroll="true" data-dots="false" data-nav="1"
+														data-columns4="1" data-columns3="2" data-columns2="3"
+														data-columns1="3" data-columns1440="4" data-columns="4">
+														<div class="item-product slick-slide">
+															<div class="items">
+																<div class="products-entry clearfix product-wapper">
+																	<div class="products-thumb">
+																		<div class="product-thumb-hover">
+																			<a href="shop-details.html">
+																				<img width="600" height="600"
+																					src="/front/clean/media/product/1.jpg"
+																					class="post-image" alt="">
+																				<img width="600" height="600"
+																					src="/front/clean/media/product/1-2.jpg"
+																					class="hover-image back" alt="">
+																			</a>
+																		</div>
+																		<div class="product-button">
+																			<div class="btn-compare"
+																				data-title="Compare">
+																				<button class="product-btn">비교화면
+																					보기</button>
+																			</div>
+																			<span class="product-quickview"
+																				data-title="Quick View">
+																				<a href="#"
+																					class="quickview quickview-button">빠르게
+																					보기
+																					<i class="icon-search"></i></a>
+																			</span>
+																		</div>
+																	</div>
+																	<div class="products-content">
+																		<div class="contents text-center">
+																			<h3 class="product-title"><a
+																					href="#">제품명</a></h3>
+																			<span class="price">Description</span>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="item-product slick-slide">
+															<div class="items">
+																<div class="products-entry clearfix product-wapper">
+																	<div class="products-thumb">
+																		<div class="product-thumb-hover">
+																			<a href="shop-details.html">
+																				<img width="600" height="600"
+																					src="/front/clean/media/product/1.jpg"
+																					class="post-image" alt="">
+																				<img width="600" height="600"
+																					src="/front/clean/media/product/1-2.jpg"
+																					class="hover-image back" alt="">
+																			</a>
+																		</div>
+																		<div class="product-button">
+																			<div class="btn-compare"
+																				data-title="Compare">
+																				<button class="product-btn">비교화면
+																					보기</button>
+																			</div>
+																			<span class="product-quickview"
+																				data-title="Quick View">
+																				<a href="#"
+																					class="quickview quickview-button">빠르게
+																					보기
+																					<i class="icon-search"></i></a>
+																			</span>
+																		</div>
+																	</div>
+																	<div class="products-content">
+																		<div class="contents text-center">
+																			<h3 class="product-title"><a
+																					href="#">제품명</a></h3>
+																			<span class="price">Description</span>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="item-product slick-slide">
+															<div class="items">
+																<div class="products-entry clearfix product-wapper">
+																	<div class="products-thumb">
+																		<div class="product-thumb-hover">
+																			<a href="shop-details.html">
+																				<img width="600" height="600"
+																					src="/front/clean/media/product/1.jpg"
+																					class="post-image" alt="">
+																				<img width="600" height="600"
+																					src="/front/clean/media/product/1-2.jpg"
+																					class="hover-image back" alt="">
+																			</a>
+																		</div>
+																		<div class="product-button">
+																			<div class="btn-compare"
+																				data-title="Compare">
+																				<button class="product-btn">비교화면
+																					보기</button>
+																			</div>
+																			<span class="product-quickview"
+																				data-title="Quick View">
+																				<a href="#"
+																					class="quickview quickview-button">빠르게
+																					보기
+																					<i class="icon-search"></i></a>
+																			</span>
+																		</div>
+																	</div>
+																	<div class="products-content">
+																		<div class="contents text-center">
+																			<h3 class="product-title"><a
+																					href="#">제품명</a></h3>
+																			<span class="price">Description</span>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="item-product slick-slide">
+															<div class="items">
+																<div class="products-entry clearfix product-wapper">
+																	<div class="products-thumb">
+																		<div class="product-thumb-hover">
+																			<a href="shop-details.html">
+																				<img width="600" height="600"
+																					src="/front/clean/media/product/1.jpg"
+																					class="post-image" alt="">
+																				<img width="600" height="600"
+																					src="/front/clean/media/product/1-2.jpg"
+																					class="hover-image back" alt="">
+																			</a>
+																		</div>
+																		<div class="product-button">
+																			<div class="btn-compare"
+																				data-title="Compare">
+																				<button class="product-btn">비교화면
+																					보기</button>
+																			</div>
+																			<span class="product-quickview"
+																				data-title="Quick View">
+																				<a href="#"
+																					class="quickview quickview-button">빠르게
+																					보기
+																					<i class="icon-search"></i></a>
+																			</span>
+																		</div>
+																	</div>
+																	<div class="products-content">
+																		<div class="contents text-center">
+																			<h3 class="product-title"><a
+																					href="#">제품명</a></h3>
+																			<span class="price">Description</span>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="item-product slick-slide">
+															<div class="items">
+																<div class="products-entry clearfix product-wapper">
+																	<div class="products-thumb">
+																		<div class="product-thumb-hover">
+																			<a href="shop-details.html">
+																				<img width="600" height="600"
+																					src="/front/clean/media/product/1.jpg"
+																					class="post-image" alt="">
+																				<img width="600" height="600"
+																					src="/front/clean/media/product/1-2.jpg"
+																					class="hover-image back" alt="">
+																			</a>
+																		</div>
+																		<div class="product-button">
+																			<div class="btn-compare"
+																				data-title="Compare">
+																				<button class="product-btn">비교화면
+																					보기</button>
+																			</div>
+																			<span class="product-quickview"
+																				data-title="Quick View">
+																				<a href="#"
+																					class="quickview quickview-button">빠르게
+																					보기
+																					<i class="icon-search"></i></a>
+																			</span>
+																		</div>
+																	</div>
+																	<div class="products-content">
+																		<div class="contents text-center">
+																			<h3 class="product-title"><a
+																					href="#">제품명</a></h3>
+																			<span class="price">Description</span>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer id="site-footer" class="site-footer" th:replace="fragments/front/clean/common :: cleanFooter">
+		</footer>
+	</div>
+	<th:block th:replace="fragments/front/clean/common :: cleanScript"></th:block>
+	<script src="/front/clean/libs/slider/js/tmpl.js"></script>
+	<script src="/front/clean/libs/slider/js/jquery.dependClass-0.1.js"></script>
+	<script src="/front/clean/libs/slider/js/draggable-0.1.js"></script>
+	<script src="/front/clean/libs/slider/js/jquery.slider.js"></script>
+	<script src="/front/clean/libs/elevatezoom/js/jquery.elevatezoom.js"></script>
+</body>
+
+</html>
