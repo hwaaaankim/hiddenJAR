@@ -1769,8 +1769,8 @@ ul.slick-dots li.slick-active button {
 }
 
 .site-header .site-logo img {
-	max-width: 100px;
 	width: 100%;
+	max-width:150px;
 }
 
 .site-header.header-v4 .header-center {
@@ -1830,7 +1830,6 @@ ul.slick-dots li.slick-active button {
 }
 
 .site-header .site-logo img {
-	max-width: 100px;
 	width: 100%;
 }
 
@@ -12349,4 +12348,9 @@ div.faq-item:hover div.faq-question {
 	margin-top:10px;
 	font-size:15px;
 	color:gray;
+}
+@media(max-width:500px){
+	.slick-dots{
+		display:none !important;
+	}
 }
